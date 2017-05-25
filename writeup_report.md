@@ -121,4 +121,6 @@ Final model architecture was based on the NVIDIA model with two dropout layer to
 I ended up using the data provided by Udacity. To create the training and validation sets, the data is first shuffle and then split into 80% for training and 20% for validation. The generator using this data to create batches during training and using the left and right cameras and augmentation. This allows a larger amount of data to be created while training and not entirely bounded to the actual size of the dataset. Using validation data one can verify that the model is not overfitting.
 
 Here is part of one lap around the first track:
-![Simulator](img/run1.gif)
+
+
+![run1](img/run1.gif)
